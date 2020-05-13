@@ -1,10 +1,9 @@
 import React from 'react';
-import { DatePicker } from 'antd';
-import 'antd/dist/antd.css';
+import { GithubLoginButton } from "react-social-login-buttons";
 function App() {
   return (
     <div className="App">
-      <DatePicker />
+      <GithubLoginButton onClick={() => alert("Hello")} />
     </div>
   );
 }
